@@ -1,0 +1,12 @@
+问题：我新建一个仓库之后，克隆一个本地库，为什么该本地库是在上一次运行的目录下
+
+确定当前分支，与当前分支的提交点（master指向最新提交，HEAD指向当前分支）    2017.11.16
+
+如何进入到本地某个git库？
+1、cd +目录打开git库，cd ..返回上一级，pwd 查看当前目录。       2017.11.17
+
+将本地库与github上的远程端相互连接起来？
+1、将本地正在运行的git库与github上的一个仓库关联 $ git remote add origin git@github.com:sun0121/learngit.git
+   便可将本地内容推送到github远程端上
+2、将远程端上的git仓库克隆到本地计算机上 $ git clone git@github.com:sun0211/gitskills.git然后在本地
+   运行的当前目录下就会产生一个与gitskills文件夹且里面已有git仓库。
