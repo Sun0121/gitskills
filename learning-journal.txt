@@ -20,5 +20,5 @@
 分支管理：git库中只有一个主分支即master分支，而master指向主分支上的最新提交，HEAD再指向master,
 		  但HEAD并不一定都是指向master分支，HEAD总是指向当前正在操作的分支的最新提交（commit）
 		  通过版本回退可以移动HEAD指向以前的commit.
-          
+                                                                  2017.11.18
           
